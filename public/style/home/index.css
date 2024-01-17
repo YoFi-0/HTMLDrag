@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #525252;
+  display: flex;
+}
+
+.tools {
+  width: max(20vw, 20rem);
+  height: 100vh;
+}
+
+.page {
+  width: max(80vw, 80rem);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page .play_ground {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 1400px;
+  height: 800px;
+  background: #FFF;
+}
+
+.tools .elemnts {
+  width: 100%;
+  height: 100%;
+  background: #303131;
+  padding: max(1vw, 1rem);
+  display: flex;
+  justify-content: center;
+}
+.tools .elemnts .element {
+  cursor: pointer;
+  width: 100%;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(1vw, 1rem);
+  gap: max(1vw, 1rem);
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.tools .elemnts .element h1 {
+  font-size: max(1.5vw, 1.5rem);
+}
+.tools .elemnts .element i {
+  font-size: max(2vw, 2rem);
+}
+.tools .elemnts .element:hover {
+  background: #000;
+  color: #FFF;
+}/*# sourceMappingURL=index.css.map */
